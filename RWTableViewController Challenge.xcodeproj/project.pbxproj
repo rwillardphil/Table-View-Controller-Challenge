@@ -17,7 +17,7 @@
 		51306CD3190A05AA0075FBD1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51306CD2190A05AA0075FBD1 /* Default@2x.png */; };
 		51306CD5190A05AA0075FBD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51306CD4190A05AA0075FBD1 /* Default-568h@2x.png */; };
 		51306CD8190A05AA0075FBD1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51306CD6190A05AA0075FBD1 /* MainStoryboard.storyboard */; };
-		51306CDB190A05AA0075FBD1 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51306CDA190A05AA0075FBD1 /* RWViewController.m */; };
+		51306CE3190A060B0075FBD1 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51306CE2190A060B0075FBD1 /* RWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		51306CD2190A05AA0075FBD1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		51306CD4190A05AA0075FBD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		51306CD7190A05AA0075FBD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		51306CD9190A05AA0075FBD1 /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
-		51306CDA190A05AA0075FBD1 /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
+		51306CE1190A060B0075FBD1 /* RWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWViewController.h; path = ../RWViewController.h; sourceTree = "<group>"; };
+		51306CE2190A060B0075FBD1 /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWViewController.m; path = ../RWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				51306CCD190A05A90075FBD1 /* RWAppDelegate.h */,
 				51306CCE190A05A90075FBD1 /* RWAppDelegate.m */,
 				51306CD6190A05AA0075FBD1 /* MainStoryboard.storyboard */,
-				51306CD9190A05AA0075FBD1 /* RWViewController.h */,
-				51306CDA190A05AA0075FBD1 /* RWViewController.m */,
+				51306CE1190A060B0075FBD1 /* RWViewController.h */,
+				51306CE2190A060B0075FBD1 /* RWViewController.m */,
 				51306CC5190A05A90075FBD1 /* Supporting Files */,
 			);
 			path = "RWTableViewController Challenge";
@@ -176,7 +176,7 @@
 			files = (
 				51306CCB190A05A90075FBD1 /* main.m in Sources */,
 				51306CCF190A05A90075FBD1 /* RWAppDelegate.m in Sources */,
-				51306CDB190A05AA0075FBD1 /* RWViewController.m in Sources */,
+				51306CE3190A060B0075FBD1 /* RWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
